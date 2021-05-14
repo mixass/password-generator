@@ -1,2 +1,2 @@
 Basic Password Generator via Javascript
-https://gfycat.com/infinitedefinitebarasinga
+Showcase : https://gfycat.com/infinitedefinitebarasinga
