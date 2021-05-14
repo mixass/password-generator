@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Random Password Generator</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="iao-alert.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="iao-alert.jquery.js"></script>
+            <center>
+                <br><br><br><br><br><br>
+                <h2>Random Password Generator</h2>
+                <br>
+                <div class=""> Numbers : <input onclick="selectednumbers()" type="checkbox" id="selectnumber"></div>
+                <br>
+                Symbols : <input onclick="selectedsymbols()" type="checkbox" id="selectsymbol">
+                <br><br>
+                <input type="number" id="numbers" min = "1" max="100" placeholder="Lenght">
+                <br><br>
+                <button onclick="mixas()" class="btn btn-outline-success">Generate Password</button>
+            </center>
+            <script src="app.js"></script>
+    </head>
+</html>
